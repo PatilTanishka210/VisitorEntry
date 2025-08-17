@@ -1,0 +1,77 @@
+/* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+/* App container */
+body {
+  background: #f5f7fb;
+  color: #333;
+}
+
+/* Centered layout */
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #1e40af;
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+input:focus {
+  border-color: #1e40af;
+  outline: none;
+  box-shadow: 0 0 4px rgba(30,64,175,0.3);
+}
+
+/* Buttons */
+button {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+button.primary {
+  background: #1e40af;
+  color: white;
+}
+
+button.primary:hover {
+  background: #1e3a8a;
+}
+
+button.success {
+  background: #059669;
+  color: white;
+}
+
+button.success:hover {
+  background: #047857;
+}
